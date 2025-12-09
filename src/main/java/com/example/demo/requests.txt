@@ -1,0 +1,11 @@
+ // curl -X POST http://localhost:5050/post/onlyTitle -d "Prodam garag"
+ // curl -X POST localhost:5050/post -H "Content-type:application/json" -d "{\"title\" : \"Prodam garag\", \"price\" : \"1000000\", \"author\" : \"dada Vasia\", \"message\" : \"garag ochen krutoi\" }
+ // curl -X GET http://localhost:5050/posts
+ // curl -X GET http://localhost:5050/post/0
+ // curl -X PUT http://localhost:5050/post/onlyTitle/0/"Prodam krutoi garag"
+ // curl -X PUT localhost:5050/post/0 -H "Content-type:application/json" -d "{\"title\" : \"Prodam garag srochno\", \"price\" : \"500000\", \"message\" : \"garag ochen krutoi, chesno-chesno\" }
+ // curl -X DELETE http://localhost:5050/post/0
+ // curl -X DELETE http://localhost:5050/deleteAll
+ // curl -X GET http://localhost:5050/postsCount
+ // curl -X GET http://localhost:5050/posts/"dadaVasia"
+
